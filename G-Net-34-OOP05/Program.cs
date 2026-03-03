@@ -1,4 +1,6 @@
-﻿namespace G_Net_34_OOP05
+﻿using G_Net_34_OOP05.interfaces;
+
+namespace G_Net_34_OOP05
 {
     internal class Program
     {
@@ -49,7 +51,43 @@
             // هيطبع نفس القيمه لانو بيشاور علي نفس الريفرنس يعني لو جيت غيرت قيمه في اي obj بيسمع في ال obj التاني مباشره ودا هوا Shallow Copy 
             #endregion
             #endregion
+            #region Part2
+            //Cinema cinema = new Cinema();
+            //cinema.Open();
 
+            //StandardTicket t1 = new StandardTicket("Inception", 80, "A5");
+            //VipTicket t2 = new VipTicket("Avengers", 200, true, 50);
+            //ImaxTicket t3 = new ImaxTicket("Dune", 130, true);
+
+            //t1.Book();
+            //t2.Book();
+            //t3.Book();
+
+            //cinema.AddTicket(t1);
+            //cinema.AddTicket(t2);
+            //cinema.AddTicket(t3);
+
+            //cinema.PrintAllTickets();
+
+            //Console.WriteLine("Clone Test");
+
+            //VipTicket clonedVip = (VipTicket)t2.Clone();
+            //clonedVip.MovieName = "Interstellar";
+
+            //Console.WriteLine("Original : ");
+            //t2.Print();
+
+            //Console.WriteLine("Clone : ");
+            //clonedVip.Print();
+
+            //Console.WriteLine("After Cancellation");
+            //t1.Cancel();
+            //t1.Print();
+
+            //BookingHelper.PrintAll(new IPrintable[] { t1, t2, t3 });
+
+            //cinema.Close();
+            #endregion
         }
     }
 }
